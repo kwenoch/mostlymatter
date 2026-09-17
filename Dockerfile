@@ -12,7 +12,7 @@ ENV MM_INSTALL_TYPE="docker"
 ARG PUID=2000
 ARG PGID=2000
 ARG TARGETARCH ## set by buildx
-ARG VERSION="11.10.1"
+ARG VERSION="11.11.0"
 # MM_PACKAGE build arguments controls which version of mattermost to install, defaults to latest stable enterprise
 # i.e. https://releases.mattermost.com/10.12.4/mattermost-10.12.4-linux-amd64.tar.gz
 ARG MM_PACKAGE="https://releases.mattermost.com/$VERSION/mattermost-$VERSION-linux-$TARGETARCH.tar.gz"
